@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <!-- <HelloWorld/> -->
+    <!-- <img src="./assets/logo.png"> -->
     <Timer/>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld'
 import Timer from './components/Timer'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
     Timer
   }
 }
